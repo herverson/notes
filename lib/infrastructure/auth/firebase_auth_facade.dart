@@ -10,8 +10,7 @@ import 'package:notes/domain/auth/user.dart';
 import 'package:notes/domain/auth/value_objects.dart';
 import './firebase_user_mapper.dart';
 
-@lazySingleton
-@RegisterAs(IAuthFacade)
+@LazySingleton(as: IAuthFacade)
 class FirebaseAuthFacade implements IAuthFacade {
   final FirebaseAuth _firebaseAuth;
   final GoogleSignIn _googleSignIn;
