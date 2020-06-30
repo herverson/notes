@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:notes/application/auth/auth_bloc.dart';
+import 'package:notes/app/auth/auth_bloc.dart';
 import 'package:notes/presentation/sign_in/sign_in_page.dart';
-import 'package:notes/application/auth/auth_bloc.dart';
-import 'package:notes/presentation/routes/router.gr.dart';
 import '../../injection.dart';
 
 class AppWidget extends StatelessWidget {
